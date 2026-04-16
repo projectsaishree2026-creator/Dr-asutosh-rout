@@ -9,16 +9,16 @@ import { faqs, doctor, services } from "@/data/site";
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: "Patient Guide – FAQs, Guidelines & Clinic Info | Dr. Ashutosh Rout, Cuttack",
+  title: "Patient Guide – FAQs, Guidelines & Clinic Info | Dr. Asutosh Rout, Cuttack",
   description:
-    "Everything you need before visiting Dr. Ashutosh Rout — FAQs about TB, Asthma & COPD, patient guidelines, clinic hours, and conditions treated. Sai Shree Health Care, Mangalabag, Cuttack.",
+    "Everything you need before visiting Dr. Asutosh Rout — FAQs about TB, Asthma & COPD, patient guidelines, clinic hours, and conditions treated. Sai shree polyclinic, Mangalabag, Cuttack.",
   alternates: {
-    canonical: "https://www.drashutoshrout.com/patient-corner",
+    canonical: "https://www.drasutoshrout.com/patient-corner",
   },
   openGraph: {
-    title: "Patient Corner – FAQs & Guidelines | Sai Shree Health Care, Cuttack",
-    description: "Find answers to common questions about pulmonology consultations, clinic hours, and treatment at Sai Shree Health Care, Cuttack.",
-    url: "https://www.drashutoshrout.com/patient-corner",
+    title: "Patient Corner – FAQs & Guidelines | Sai shree polyclinic, Cuttack",
+    description: "Find answers to common questions about pulmonology consultations, clinic hours, and treatment at Sai shree polyclinic, Cuttack.",
+    url: "https://www.drasutoshrout.com/patient-corner",
   },
 };
 

@@ -33,10 +33,10 @@ const physicianSchema = {
   "@context": "https://schema.org",
   "@type": "Physician",
   name: doctor.name,
-  url: "https://www.drashutoshrout.com",
-  image: "https://www.drashutoshrout.com/images/DR-AR.webp",
+  url: "https://www.drasutoshrout.com",
+  image: "https://www.drasutoshrout.com/images/DR-AR.webp",
   description:
-    "Dr. Ashutosh Rout is a leading Pulmonologist and T.B. Chest Specialist based at Sai Shree Health Care, Cuttack, Odisha. Expert in Tuberculosis, Asthma, COPD, Pneumonia, Bronchiectasis and respiratory emergencies.",
+    "Dr. Asutosh Rout is a leading Pulmonologist and T.B. Chest Specialist based at Sai shree polyclinic, Cuttack, Odisha. Expert in Tuberculosis, Asthma, COPD, Pneumonia, Bronchiectasis and respiratory emergencies.",
   telephone: doctor.phone,
   email: doctor.email,
   medicalSpecialty: "Pulmonology",
@@ -113,15 +113,15 @@ const physicianSchema = {
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
-  "@id": "https://www.drashutoshrout.com/#clinic",
-  name: "Sai Shree Health Care",
-  alternateName: "Sai Shree Health Care — Pulmonology Clinic",
-  url: "https://www.drashutoshrout.com",
+  "@id": "https://www.drasutoshrout.com/#clinic",
+  name: "Sai shree polyclinic",
+  alternateName: "Sai shree polyclinic — Pulmonology Clinic",
+  url: "https://www.drasutoshrout.com",
   telephone: doctor.phone,
   email: doctor.email,
-  image: "https://www.drashutoshrout.com/images/DR-AR.webp",
+  image: "https://www.drasutoshrout.com/images/DR-AR.webp",
   description:
-    "Sai Shree Health Care is a specialised pulmonology clinic in Cuttack, Odisha, led by Dr. Ashutosh Rout (MBBS, MD). Offering expert treatment for TB, Asthma, COPD, Pneumonia, Bronchiectasis and respiratory emergencies to patients from Cuttack, Bhubaneswar and across Odisha.",
+    "Sai shree polyclinic is a specialised pulmonology clinic in Cuttack, Odisha, led by Dr. Asutosh Rout (MBBS, MD). Offering expert treatment for TB, Asthma, COPD, Pneumonia, Bronchiectasis and respiratory emergencies to patients from Cuttack, Bhubaneswar and across Odisha.",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Near Shreema Hospital, Ring Road, Mangalabag",
@@ -168,32 +168,32 @@ const localBusinessSchema = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "Dr. Ashutosh Rout — Pulmonologist & T.B. Chest Specialist",
-  url: "https://www.drashutoshrout.com",
+  name: "Dr. Asutosh Rout — Pulmonologist & T.B. Chest Specialist",
+  url: "https://www.drasutoshrout.com",
   description:
-    "Official website of Dr. Ashutosh Rout, MBBS, MD (Pulmonary Medicine). Best Pulmonologist in Cuttack & Bhubaneswar, Odisha. Expert treatment for TB, Asthma, COPD, Pneumonia & Bronchiectasis.",
+    "Official website of Dr. Asutosh Rout, MBBS, MD (Pulmonary Medicine). Best Pulmonologist in Cuttack & Bhubaneswar, Odisha. Expert treatment for TB, Asthma, COPD, Pneumonia & Bronchiectasis.",
   publisher: {
     "@type": "Organization",
-    name: "Sai Shree Health Care",
-    url: "https://www.drashutoshrout.com",
+    name: "Sai shree polyclinic",
+    url: "https://www.drasutoshrout.com",
   },
   potentialAction: {
     "@type": "SearchAction",
-    target: "https://www.drashutoshrout.com/blogs?q={search_term_string}",
+    target: "https://www.drasutoshrout.com/blogs?q={search_term_string}",
     "query-input": "required name=search_term_string",
   },
 };
 
 /* ─── Root Metadata ─── */
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.drashutoshrout.com"),
+  metadataBase: new URL("https://www.drasutoshrout.com"),
   title: {
-    template: "%s | Dr. Ashutosh Rout – Pulmonologist in Cuttack, Odisha",
+    template: "%s | Dr. Asutosh Rout – Pulmonologist in Cuttack, Odisha",
     default:
-      "Best Pulmonologist in Cuttack & Bhubaneswar | Dr. Ashutosh Rout – TB, Asthma & COPD Specialist",
+      "Best Pulmonologist in Cuttack & Bhubaneswar | Dr. Asutosh Rout – TB, Asthma & COPD Specialist",
   },
   description:
-    "Consult Dr. Ashutosh Rout (MBBS, MD) — Cuttack's leading chest specialist. Expert treatment for Tuberculosis, Asthma, COPD, Pneumonia & Bronchiectasis at Sai Shree Health Care. Book your appointment today.",
+    "Consult Dr. Asutosh Rout (MBBS, MD) — Cuttack's leading chest specialist. Expert treatment for Tuberculosis, Asthma, COPD, Pneumonia & Bronchiectasis at Sai shree polyclinic. Book your appointment today.",
   keywords: [
     "pulmonologist in Cuttack",
     "chest specialist Cuttack",
@@ -204,9 +204,9 @@ export const metadata: Metadata = {
     "COPD treatment Cuttack",
     "pulmonologist near me",
     "asthma doctor near me",
-    "Dr Ashutosh Rout",
     "Dr Asutosh Rout",
-    "Sai Shree Health Care",
+    "Dr Asutosh Rout",
+    "Sai shree polyclinic",
     "tuberculosis treatment Odisha",
     "lung specialist Cuttack",
     "respiratory specialist Bhubaneswar",
@@ -216,36 +216,36 @@ export const metadata: Metadata = {
     "TB treatment Bhubaneswar",
     "COPD specialist Odisha",
   ],
-  authors: [{ name: "Dr. Ashutosh Rout", url: "https://www.drashutoshrout.com" }],
-  creator: "Dr. Ashutosh Rout",
-  publisher: "Sai Shree Health Care",
+  authors: [{ name: "Dr. Asutosh Rout", url: "https://www.drasutoshrout.com" }],
+  creator: "Dr. Asutosh Rout",
+  publisher: "Sai shree polyclinic",
   alternates: {
-    canonical: "https://www.drashutoshrout.com",
+    canonical: "https://www.drasutoshrout.com",
   },
   openGraph: {
     type: "website",
     locale: "en_IN",
-    siteName: "Dr. Ashutosh Rout – Sai Shree Health Care",
+    siteName: "Dr. Asutosh Rout – Sai shree polyclinic",
     title:
-      "Best Pulmonologist in Cuttack & Bhubaneswar | Dr. Ashutosh Rout – TB, Asthma & COPD Specialist",
+      "Best Pulmonologist in Cuttack & Bhubaneswar | Dr. Asutosh Rout – TB, Asthma & COPD Specialist",
     description:
-      "Expert pulmonary care for Tuberculosis, Asthma, COPD, Pneumonia & Bronchiectasis. Sai Shree Health Care, Cuttack & Bhubaneswar, Odisha. Book your appointment now.",
-    url: "https://www.drashutoshrout.com",
+      "Expert pulmonary care for Tuberculosis, Asthma, COPD, Pneumonia & Bronchiectasis. Sai shree polyclinic, Cuttack & Bhubaneswar, Odisha. Book your appointment now.",
+    url: "https://www.drasutoshrout.com",
     images: [
       {
         url: "/images/DR-AR.webp",
         width: 440,
         height: 580,
-        alt: "Dr. Ashutosh Rout — Best Pulmonologist in Cuttack and Bhubaneswar, Odisha",
+        alt: "Dr. Asutosh Rout — Best Pulmonologist in Cuttack and Bhubaneswar, Odisha",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Dr. Ashutosh Rout | Best Pulmonologist in Cuttack & Bhubaneswar",
+      "Dr. Asutosh Rout | Best Pulmonologist in Cuttack & Bhubaneswar",
     description:
-      "MBBS, MD (Pulmonary Medicine). Expert treatment for TB, Asthma, COPD & Pneumonia at Sai Shree Health Care, Cuttack.",
+      "MBBS, MD (Pulmonary Medicine). Expert treatment for TB, Asthma, COPD & Pneumonia at Sai shree polyclinic, Cuttack.",
     images: ["/images/DR-AR.webp"],
   },
   robots: {

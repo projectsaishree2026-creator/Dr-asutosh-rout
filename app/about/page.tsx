@@ -10,16 +10,16 @@ import { doctor, services } from "@/data/site";
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: "About Dr. Ashutosh Rout – Best Chest & TB Specialist in Cuttack, Odisha",
+  title: "About Dr. Asutosh Rout – Best Chest & TB Specialist in Cuttack, Odisha",
   description:
-    "Learn about Dr. Ashutosh Rout — MBBS, MD (Pulmonary Medicine), T.B. Chest & Asthma Specialist with 10+ years experience. Trusted by 5,000+ patients at Sai Shree Health Care, Cuttack. Expert in TB, Asthma, COPD & Pneumonia treatment.",
+    "Learn about Dr. Asutosh Rout — MBBS, MD (Pulmonary Medicine), T.B. Chest & Asthma Specialist with 10+ years experience. Trusted by 5,000+ patients at Sai shree polyclinic, Cuttack. Expert in TB, Asthma, COPD & Pneumonia treatment.",
   alternates: {
-    canonical: "https://www.drashutoshrout.com/about",
+    canonical: "https://www.drasutoshrout.com/about",
   },
   openGraph: {
-    title: "About Dr. Ashutosh Rout – Leading Pulmonologist in Cuttack, Odisha",
-    description: "MBBS, MD (Pulmonary Medicine) from SCB Medical College. 10+ years of expertise in Tuberculosis, Asthma, COPD & respiratory care at Sai Shree Health Care, Cuttack.",
-    url: "https://www.drashutoshrout.com/about",
+    title: "About Dr. Asutosh Rout – Leading Pulmonologist in Cuttack, Odisha",
+    description: "MBBS, MD (Pulmonary Medicine) from SCB Medical College. 10+ years of expertise in Tuberculosis, Asthma, COPD & respiratory care at Sai shree polyclinic, Cuttack.",
+    url: "https://www.drasutoshrout.com/about",
   },
 };
 
@@ -57,7 +57,7 @@ export default function AboutPage() {
       <PageHeader
         label="About the Doctor"
         title={<>Meet <em className="font-normal italic">Dr. Asutosh Rout</em></>}
-        subtitle="MBBS, MD (Pulmonary Medicine) · T.B. Chest & Asthma Specialist · Sai Shree Health Care, Cuttack"
+        subtitle="MBBS, MD (Pulmonary Medicine) · T.B. Chest & Asthma Specialist · Sai shree polyclinic, Cuttack"
         bgImage="/images/hero-about.webp"
       />
 
@@ -70,7 +70,7 @@ export default function AboutPage() {
                 <div className="rounded-[32px] overflow-hidden aspect-[4/5]">
                   <Image
                     src="/images/DR-AR-about.webp"
-                    alt="Dr. Ashutosh Rout — MBBS MD Pulmonologist and Chest Specialist at Sai Shree Health Care, Cuttack, Odisha"
+                    alt="Dr. Asutosh Rout — MBBS MD Pulmonologist and Chest Specialist at Sai shree polyclinic, Cuttack, Odisha"
                     fill
                     className="object-cover object-top"
                     sizes="(max-width: 768px) 100vw, 540px"

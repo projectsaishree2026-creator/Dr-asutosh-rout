@@ -6,12 +6,12 @@ export const doctor = {
   institution: "SCB Medical College, Cuttack",
   experience: "10+",
   patientsCount: "5,000+",
-  clinicName: "Sai Shree Health Care",
-  address: "Near Shreema Hospital, Ring Road, Mangalabag, Cuttack",
+  clinicName: "Sai shree polyclinic",
+  address: "At- Kathagola, Ring Rd, near Shree Maa, Cuttack, Odisha 753110",
   phone: "+91 7008512773",
   phoneDisplay: "+91 70085 12773",
   email: "dr.asutoshrout@saishreehealthcare.in",
-  bio: "Dr. Asutosh Rout is a distinguished Pulmonary Medicine specialist committed to delivering expert, compassionate care for patients with chest and respiratory conditions. A graduate of the prestigious SCB Medical College, Cuttack, Dr. Rout brings over a decade of focused clinical practice to Sai Shree Health Care.",
+  bio: "Dr. Asutosh Rout is a distinguished Pulmonary Medicine specialist committed to delivering expert, compassionate care for patients with chest and respiratory conditions. A graduate of the prestigious SCB Medical College, Cuttack, Dr. Rout brings over a decade of focused clinical practice to Sai shree polyclinic.",
   bioLong: "Dr. Asutosh Rout completed his MBBS and MD in Pulmonary Medicine from SCB Medical College, one of Odisha's foremost government medical institutions. With deep expertise in the diagnosis and management of tuberculosis, asthma, COPD, pneumonia, bronchiectasis, and asphyxia, he provides evidence-based, patient-centred care tailored to each individual's needs. His approach combines thorough clinical assessment with clear communication — empowering patients to understand their condition and participate in their own recovery.",
   stats: [
     { label: "Years Experience", value: "10+" },
@@ -195,7 +195,7 @@ export const faqs = [
   },
   {
     q: "What are the clinic hours?",
-    a: "Sai Shree Health Care is open Monday to Saturday, 9:00 AM to 7:00 PM. Sunday consultations are available by prior appointment.",
+    a: "Sai shree polyclinic is open Monday to Saturday, 9:00 AM to 7:00 PM. Sunday consultations are available by prior appointment.",
   },
   {
     q: "What investigations are available at the clinic?",
@@ -211,15 +211,15 @@ export const faqs = [
   },
   {
     q: "What is the best treatment for asthma in Bhubaneswar and Cuttack?",
-    a: "Dr. Ashutosh Rout provides comprehensive, evidence-based asthma management in Cuttack, accessible to patients from Bhubaneswar as well. Treatment includes personalized inhaler therapy, trigger identification, and pulmonary function testing.",
+    a: "Dr. Asutosh Rout provides comprehensive, evidence-based asthma management in Cuttack, accessible to patients from Bhubaneswar as well. Treatment includes personalized inhaler therapy, trigger identification, and pulmonary function testing.",
   },
   {
     q: "How long does TB treatment take?",
     a: "Standard tuberculosis treatment generally takes 6 months, but it may take longer depending on the type and severity of the infection. Strict adherence to the medication schedule is critical.",
   },
   {
-    q: "Is Dr. Ashutosh Rout available for consultation in Bhubaneswar?",
-    a: "Dr. Ashutosh Rout operates primarily out of Sai Shree Health Care in Cuttack. Many patients travel from Bhubaneswar for his expert pulmonary care given the short distance.",
+    q: "Is Dr. Asutosh Rout available for consultation in Bhubaneswar?",
+    a: "Dr. Asutosh Rout operates primarily out of Sai shree polyclinic in Cuttack. Many patients travel from Bhubaneswar for his expert pulmonary care given the short distance.",
   },
   {
     q: "What are the early symptoms of COPD?",

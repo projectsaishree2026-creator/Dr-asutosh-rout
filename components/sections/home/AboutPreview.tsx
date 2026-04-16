@@ -57,7 +57,7 @@ export function AboutPreview() {
                 <div className="absolute -inset-6 rounded-full bg-azure/[0.08] blur-[50px] pointer-events-none" />
                 <Image
                   src="/images/DR-AR.webp"
-                  alt="Dr. Ashutosh Rout — Leading Pulmonary Medicine Specialist in Cuttack and Bhubaneswar, Odisha"
+                  alt="Dr. Asutosh Rout — Leading Pulmonary Medicine Specialist in Cuttack and Bhubaneswar, Odisha"
                   width={340}
                   height={480}
                   className="relative w-full h-auto object-contain drop-shadow-2xl"
@@ -70,7 +70,7 @@ export function AboutPreview() {
               <div className="absolute bottom-4 right-2 sm:right-4 lg:right-0 w-[110px] sm:w-[130px] lg:w-[150px] z-20 rounded-2xl overflow-hidden shadow-[0_8px_32px_rgba(0,0,0,0.18)] border-[3px] border-[#FAFAF7] dark:border-slate-950 transition-colors duration-300">
                 <Image
                   src="/images/DR-AR-2.webp"
-                  alt="Dr. Ashutosh Rout consulting a patient at Sai Shree Health Care, Mangalabag, Cuttack"
+                  alt="Dr. Asutosh Rout consulting a patient at Sai shree polyclinic, Mangalabag, Cuttack"
                   width={150}
                   height={170}
                   className="w-full h-auto object-cover object-top"
@@ -109,7 +109,7 @@ export function AboutPreview() {
                     <div>
                       <div className="text-[9px] text-slate-400 leading-none mb-0.5">Clinic</div>
                       <div className="text-[11px] font-semibold text-ink dark:text-slate-100 leading-none whitespace-nowrap">
-                        Sai Shree Health Care
+                        Sai shree polyclinic
                       </div>
                     </div>
                   </div>

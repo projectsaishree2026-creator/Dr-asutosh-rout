@@ -20,16 +20,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const blog = blogs.find((b) => b.slug === slug);
   if (!blog) return {};
   return {
-    title: `${blog.title} | Dr. Ashutosh Rout – Pulmonologist in Cuttack`,
-    description: `${blog.excerpt} Expert guidance by Dr. Ashutosh Rout, MBBS, MD — leading pulmonologist in Cuttack, Odisha.`,
+    title: `${blog.title} | Dr. Asutosh Rout – Pulmonologist in Cuttack`,
+    description: `${blog.excerpt} Expert guidance by Dr. Asutosh Rout, MBBS, MD — leading pulmonologist in Cuttack, Odisha.`,
     alternates: {
-      canonical: `https://www.drashutoshrout.com/blogs/${slug}`,
+      canonical: `https://www.drasutoshrout.com/blogs/${slug}`,
     },
     openGraph: {
       title: blog.title,
       description: blog.excerpt,
       type: "article",
-      url: `https://www.drashutoshrout.com/blogs/${slug}`,
+      url: `https://www.drasutoshrout.com/blogs/${slug}`,
       publishedTime: blog.date,
       authors: [doctor.name],
       section: blog.category,
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       `${blog.category.toLowerCase()} treatment Cuttack`,
       `${blog.category.toLowerCase()} specialist Odisha`,
       "pulmonologist Cuttack",
-      "Dr Ashutosh Rout",
+      "Dr Asutosh Rout",
       "chest specialist Bhubaneswar",
     ],
   };
@@ -52,7 +52,7 @@ const blogContent: Record<string, string[]> = {
     "The most common symptoms include a persistent cough lasting more than 2–3 weeks, coughing up blood, unexplained weight loss, evening fever and night sweats, and fatigue. If you or a family member experience these symptoms — especially in combination — it is important to seek medical evaluation promptly.",
     "Diagnosis involves a combination of clinical assessment, chest X-ray, sputum tests (including smear microscopy and culture), and in some cases, CT scanning or bronchoscopy. Modern molecular tests such as GeneXpert can also rapidly identify T.B. and detect drug resistance.",
     "The good news is that drug-sensitive T.B. is fully curable with a complete course of anti-tuberculosis therapy under the DOTS (Directly Observed Treatment Short-course) programme. Treatment typically lasts 6 months. It is absolutely critical that patients complete the full course — stopping early can lead to drug-resistant T.B., which is far more difficult and expensive to treat.",
-    "If you are concerned about T.B. symptoms or require a consultation, contact Dr. Asutosh Rout at Sai Shree Health Care, Cuttack.",
+    "If you are concerned about T.B. symptoms or require a consultation, contact Dr. Asutosh Rout at Sai shree polyclinic, Cuttack.",
   ],
   "asthma-management-guide": [
     "Asthma is one of the most common chronic respiratory conditions, affecting people of all ages. Characterised by episodes of wheezing, breathlessness, chest tightness, and coughing — particularly at night or in the early morning — it can significantly affect quality of life if poorly managed. However, with the right approach, the vast majority of asthma patients can achieve excellent control.",
@@ -103,21 +103,21 @@ export default async function BlogDetailPage({ params }: Props) {
     author: {
       "@type": "Person",
       name: doctor.name,
-      url: "https://www.drashutoshrout.com/about",
+      url: "https://www.drasutoshrout.com/about",
       jobTitle: "Pulmonologist & T.B. Chest Specialist",
       worksFor: {
         "@type": "MedicalBusiness",
-        name: "Sai Shree Health Care",
+        name: "Sai shree polyclinic",
       },
     },
     publisher: {
       "@type": "Organization",
-      name: "Sai Shree Health Care",
-      url: "https://www.drashutoshrout.com",
+      name: "Sai shree polyclinic",
+      url: "https://www.drasutoshrout.com",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://www.drashutoshrout.com/blogs/${slug}`,
+      "@id": `https://www.drasutoshrout.com/blogs/${slug}`,
     },
     about: {
       "@type": "MedicalCondition",
@@ -175,7 +175,7 @@ export default async function BlogDetailPage({ params }: Props) {
                   Need a Consultation?
                 </h3>
                 <p className="text-slate-600 dark:text-slate-400 text-[14px] font-light leading-relaxed mb-5">
-                  If you have concerns about your respiratory health, Dr. Asutosh Rout is available for consultations at Sai Shree Health Care, Cuttack.
+                  If you have concerns about your respiratory health, Dr. Asutosh Rout is available for consultations at Sai shree polyclinic, Cuttack.
                 </p>
                 <a
                   href={`tel:${doctor.phone}`}

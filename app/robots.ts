@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/_next/", "/api/"],
       },
     ],
-    sitemap: "https://www.drashutoshrout.com/sitemap.xml",
-    host: "https://www.drashutoshrout.com",
+    sitemap: "https://www.drasutoshrout.com/sitemap.xml",
+    host: "https://www.drasutoshrout.com",
   };
 }

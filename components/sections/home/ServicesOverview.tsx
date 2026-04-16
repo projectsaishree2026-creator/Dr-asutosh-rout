@@ -88,7 +88,7 @@ export function ServicesOverview() {
                   {/* ── Background image ── */}
                   <Image
                     src={img}
-                    alt={`${service.title} treatment by Dr. Ashutosh Rout — Pulmonologist in Cuttack`}
+                    alt={`${service.title} treatment by Dr. Asutosh Rout — Pulmonologist in Cuttack`}
                     fill
                     className="object-cover object-center transition-transform duration-700 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] group-hover:scale-[1.08] group-[.active]:scale-[1.08]"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

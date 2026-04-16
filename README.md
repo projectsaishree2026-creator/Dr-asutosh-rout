@@ -63,7 +63,7 @@ public/images/          # Doctor photos (WebP)
 - **Name**: Dr. Asutosh Rout
 - **Specialization**: T.B. Chest & Asthma Specialist
 - **Qualifications**: MBBS, MD (Pulmonary Medicine), SCB Medical College
-- **Clinic**: Sai Shree Health Care, Cuttack
+- **Clinic**: Sai shree polyclinic, Cuttack
 - **Phone**: +91 7008512773
 
 Update `data/site.ts` to change any doctor information across the entire site.

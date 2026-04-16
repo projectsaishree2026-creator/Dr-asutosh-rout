@@ -392,7 +392,7 @@ export function HeroSection() {
 
             <Image
               src="/images/DR-AR.webp"
-              alt="Dr. Ashutosh Rout — Best Pulmonologist and TB Chest Specialist in Cuttack, Odisha"
+              alt="Dr. Asutosh Rout — Best Pulmonologist and TB Chest Specialist in Cuttack, Odisha"
               width={440}
               height={580}
               className="relative w-full h-auto object-contain object-bottom drop-shadow-2xl dark:brightness-90 dark:contrast-105 lg:dark:brightness-100 lg:dark:contrast-100 transition-all duration-300"
@@ -413,7 +413,7 @@ export function HeroSection() {
         >
           MBBS, MD (Pulmonary Medicine) — SCB Medical College. Expert care for
           Tuberculosis, Asthma, COPD &amp; Bronchiectasis at{" "}
-          <span className="text-white/70 font-normal">Sai Shree Health Care</span>
+          <span className="text-white/70 font-normal">Sai shree polyclinic</span>
           , Cuttack.
         </motion.p>
 

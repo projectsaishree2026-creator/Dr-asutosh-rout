@@ -77,7 +77,7 @@ export function WhyChooseUs() {
               <div className="absolute top-0 right-0 w-[75%] h-[90%]">
                 <Image
                   src="/images/DR-AR-3.webp"
-                  alt="Dr. Ashutosh Rout — Trusted Pulmonologist at Sai Shree Health Care, Cuttack, Odisha"
+                  alt="Dr. Asutosh Rout — Trusted Pulmonologist at Sai shree polyclinic, Cuttack, Odisha"
                   fill
                   className="object-contain object-top"
                   sizes="(max-width: 768px) 80vw, 380px"
@@ -91,7 +91,7 @@ export function WhyChooseUs() {
               <div className="absolute bottom-0 left-0 w-[48%] h-[52%]">
                 <Image
                   src="/images/DR-AR-1.webp"
-                  alt="Dr. Ashutosh Rout providing chest and respiratory consultation in Cuttack"
+                  alt="Dr. Asutosh Rout providing chest and respiratory consultation in Cuttack"
                   fill
                   className="object-contain object-bottom"
                   sizes="220px"

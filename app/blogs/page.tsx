@@ -9,16 +9,16 @@ import { blogs } from "@/data/site";
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: "Health Articles on TB, Asthma & COPD | Dr. Ashutosh Rout – Pulmonologist in Cuttack",
+  title: "Health Articles on TB, Asthma & COPD | Dr. Asutosh Rout – Pulmonologist in Cuttack",
   description:
-    "Read expert health articles on Tuberculosis, Asthma, COPD & Pneumonia by Dr. Ashutosh Rout — leading pulmonologist in Cuttack, Odisha. Evidence-based guidance for better respiratory health.",
+    "Read expert health articles on Tuberculosis, Asthma, COPD & Pneumonia by Dr. Asutosh Rout — leading pulmonologist in Cuttack, Odisha. Evidence-based guidance for better respiratory health.",
   alternates: {
-    canonical: "https://www.drashutoshrout.com/blogs",
+    canonical: "https://www.drasutoshrout.com/blogs",
   },
   openGraph: {
-    title: "Health Articles & Respiratory Care Tips | Dr. Ashutosh Rout",
+    title: "Health Articles & Respiratory Care Tips | Dr. Asutosh Rout",
     description: "Expert articles on TB, Asthma, COPD & Pneumonia from Cuttack's leading pulmonologist. Learn to manage respiratory conditions effectively.",
-    url: "https://www.drashutoshrout.com/blogs",
+    url: "https://www.drasutoshrout.com/blogs",
   },
 };
 

@@ -12,14 +12,14 @@ export const revalidate = 3600;
 export const metadata: Metadata = {
   title: "Pulmonology Services – TB, Asthma, COPD Treatment in Cuttack & Bhubaneswar",
   description:
-    "Comprehensive chest & respiratory care — Tuberculosis, Asthma, COPD, Pneumonia, Bronchiectasis & Asphyxia treatment by Dr. Ashutosh Rout at Sai Shree Health Care, Cuttack, Odisha. Book your consultation today.",
+    "Comprehensive chest & respiratory care — Tuberculosis, Asthma, COPD, Pneumonia, Bronchiectasis & Asphyxia treatment by Dr. Asutosh Rout at Sai shree polyclinic, Cuttack, Odisha. Book your consultation today.",
   alternates: {
-    canonical: "https://www.drashutoshrout.com/services",
+    canonical: "https://www.drasutoshrout.com/services",
   },
   openGraph: {
-    title: "Expert Pulmonology Services in Cuttack | Dr. Ashutosh Rout",
-    description: "Specialised treatment for TB, Asthma, COPD, Pneumonia, Bronchiectasis & respiratory emergencies. Evidence-based care at Sai Shree Health Care, Cuttack.",
-    url: "https://www.drashutoshrout.com/services",
+    title: "Expert Pulmonology Services in Cuttack | Dr. Asutosh Rout",
+    description: "Specialised treatment for TB, Asthma, COPD, Pneumonia, Bronchiectasis & respiratory emergencies. Evidence-based care at Sai shree polyclinic, Cuttack.",
+    url: "https://www.drasutoshrout.com/services",
   },
 };
 
@@ -54,10 +54,10 @@ export default function ServicesPage() {
   const medicalConditionsSchema = {
     "@context": "https://schema.org",
     "@type": "MedicalWebPage",
-    name: "Pulmonology Services – Dr. Ashutosh Rout",
-    url: "https://www.drashutoshrout.com/services",
+    name: "Pulmonology Services – Dr. Asutosh Rout",
+    url: "https://www.drasutoshrout.com/services",
     description:
-      "Comprehensive chest & respiratory care — Tuberculosis, Asthma, COPD, Pneumonia, Bronchiectasis & Asphyxia treatment by Dr. Ashutosh Rout at Sai Shree Health Care, Cuttack.",
+      "Comprehensive chest & respiratory care — Tuberculosis, Asthma, COPD, Pneumonia, Bronchiectasis & Asphyxia treatment by Dr. Asutosh Rout at Sai shree polyclinic, Cuttack.",
     mainEntity: services.map((service) => ({
       "@type": "MedicalCondition",
       name: service.title,
@@ -127,7 +127,7 @@ export default function ServicesPage() {
                     {/* ── Background image ── */}
                     <Image
                       src={img}
-                      alt={`${service.title} treatment by Dr. Ashutosh Rout — Pulmonologist in Cuttack, Odisha`}
+                      alt={`${service.title} treatment by Dr. Asutosh Rout — Pulmonologist in Cuttack, Odisha`}
                       fill
                       className="
                         object-cover object-center

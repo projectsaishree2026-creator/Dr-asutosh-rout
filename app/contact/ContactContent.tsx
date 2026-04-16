@@ -51,7 +51,7 @@ function ContactForm() {
       time      ? `Preferred Time: ${time}` : "Preferred Time: Flexible",
       message.trim() ? `Message: ${message.trim()}` : null,
       "",
-      "Please confirm my appointment at Sai Shree Health Care.",
+      "Please confirm my appointment at Sai shree polyclinic.",
     ]
       .filter((line) => line !== null)
       .join("\n");
@@ -82,7 +82,7 @@ function ContactForm() {
           WhatsApp Opened!
         </h3>
         <p className="text-slate-500 dark:text-slate-400 text-[15px] font-light leading-relaxed max-w-[300px] mb-6">
-          Your appointment request has been sent via WhatsApp. We will confirm your slot at Sai Shree Health Care shortly.
+          Your appointment request has been sent via WhatsApp. We will confirm your slot at Sai shree polyclinic shortly.
         </p>
         <a
           href={`tel:${doctor.phone}`}
@@ -276,8 +276,8 @@ export function ContactContent() {
               {/* ── Interactive Google Maps embed ── */}
               <div className="relative rounded-[24px] overflow-hidden h-[280px] mb-6 shadow-[0_4px_24px_rgba(0,0,0,0.08)] border border-slate-200/60 dark:border-slate-800 group transition-colors duration-300">
                 <iframe
-                  title="Sai Shree Health Care – Google Maps"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.6!2d85.8672!3d20.4625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a190912a7d5c1c7%3A0xc9ef8c3f6a8a1c2e!2sMangalabag%2C%20Cuttack%2C%20Odisha!5e0!3m2!1sen!2sin!4v1712500000000!5m2!1sen!2sin"
+                  title="Sai shree polyclinic – Google Maps"
+                  src="https://maps.google.com/maps?q=Sai+shree+polyclinic+Cuttack+At-+Kathagola,+Ring+Rd,+near+Shree+Maa,+Cuttack,+Odisha+753110&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -293,7 +293,7 @@ export function ContactContent() {
                 </div>
                 {/* "Open in Maps" pill — top-right, visible on hover */}
                 <a
-                  href="https://maps.google.com/?q=Sai+Shree+Health+Care+Mangalabag+Cuttack+Odisha"
+                  href="https://maps.google.com/?q=Sai+shree+polyclinic+Cuttack+At-+Kathagola,+Ring+Rd,+near+Shree+Maa,+Cuttack,+Odisha+753110"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="absolute top-3 right-3 flex items-center gap-1.5 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm rounded-full px-3 py-1.5 text-[11px] font-semibold text-ink dark:text-slate-100 shadow-sm opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"
