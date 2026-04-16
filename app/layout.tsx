@@ -266,6 +266,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${dmSans.variable} ${dmMono.variable} ${playfair.variable}`}>
       <head>
+      <meta name="google-site-verification" content="V8dBR1ggADyDF4EHYvW_RQZiJQ-uujSaN3rjzNh5cS8" />
         {/* ── Preconnect for Google Maps (Contact page) ── */}
         <link rel="dns-prefetch" href="https://www.google.com" />
         <link rel="preconnect" href="https://www.google.com" crossOrigin="anonymous" />
