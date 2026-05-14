@@ -277,7 +277,7 @@ export function ContactContent() {
               <div className="relative rounded-[24px] overflow-hidden h-[280px] mb-6 shadow-[0_4px_24px_rgba(0,0,0,0.08)] border border-slate-200/60 dark:border-slate-800 group transition-colors duration-300">
                 <iframe
                   title="Sai shree polyclinic – Google Maps"
-                  src="https://maps.google.com/maps?q=Sai+shree+polyclinic+Cuttack+At-+Kathagola,+Ring+Rd,+near+Shree+Maa,+Cuttack,+Odisha+753110&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=Kathagola+Rd,+near+shreema+Hospital,+Mangalabag,+Cuttack,+Odisha+753001,+Sai+Shree+Poly+Clinic&t=&z=15&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -293,7 +293,7 @@ export function ContactContent() {
                 </div>
                 {/* "Open in Maps" pill — top-right, visible on hover */}
                 <a
-                  href="https://maps.google.com/?q=Sai+shree+polyclinic+Cuttack+At-+Kathagola,+Ring+Rd,+near+Shree+Maa,+Cuttack,+Odisha+753110"
+                  href="https://maps.google.com/?q=Kathagola+Rd,+near+shreema+Hospital,+Mangalabag,+Cuttack,+Odisha+753001,+Sai+Shree+Poly+Clinic"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="absolute top-3 right-3 flex items-center gap-1.5 bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm rounded-full px-3 py-1.5 text-[11px] font-semibold text-ink dark:text-slate-100 shadow-sm opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"

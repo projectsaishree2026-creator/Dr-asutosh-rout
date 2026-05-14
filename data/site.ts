@@ -7,7 +7,7 @@ export const doctor = {
   experience: "10+",
   patientsCount: "5,000+",
   clinicName: "Sai shree polyclinic",
-  address: "At- Kathagola, Ring Rd, near Shree Maa, Cuttack, Odisha 753110",
+  address: "Kathagola Rd, near shreema Hospital, Mangalabag, Cuttack, Odisha 753001, Sai Shree Poly Clinic",
   phone: "+91 7008512773",
   phoneDisplay: "+91 70085 12773",
   email: "dr.asutoshrout@saishreehealthcare.in",
